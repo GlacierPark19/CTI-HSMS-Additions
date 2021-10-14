@@ -1,0 +1,15 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "foods:basic_bagel",
+      "item": "minecraft:seeds"
+    }
+
+  ],
+  "results": [
+    {
+      "item": "foods:seed_bagel"
+    }
+  ]
+}

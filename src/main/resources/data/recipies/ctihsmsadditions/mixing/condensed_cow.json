@@ -1,0 +1,18 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:beef",
+      "item": "minecraft:beef",
+      "item": "minecraft:beef",
+      "item": "minecraft:beef",
+      "item": "minecraft:beef",
+      "item": "minecraft:egg"
+    }
+  ],
+  "results": [
+    {
+      "item": "foods:condensed_cow"
+    }
+  ]
+}

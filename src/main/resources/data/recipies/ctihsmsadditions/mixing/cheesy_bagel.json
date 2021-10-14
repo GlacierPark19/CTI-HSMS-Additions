@@ -1,0 +1,16 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "foods:basic_bagel",
+      "item": "minecraft:milk",
+      "item": "foods:salt"
+    }
+
+  ],
+  "results": [
+    {
+      "item": "foods:cheesy_bagel"
+    }
+  ]
+}

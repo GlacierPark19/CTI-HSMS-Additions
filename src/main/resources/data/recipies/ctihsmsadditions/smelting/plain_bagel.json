@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "foods:basic_dough"
+  },
+  "result": "foods:basic_bagel",
+  "experience": 0.1,
+  "cookingtime": 100
+}

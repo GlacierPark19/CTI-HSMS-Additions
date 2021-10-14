@@ -1,0 +1,17 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "foods:basic_bagel",
+      "item": "foods:tomato",
+      "item": "foods:cheese",
+      "item": "foods:condensed_cow"
+    }
+
+  ],
+  "results": [
+    {
+      "item": "foods:pizza_bagel"
+    }
+  ]
+}

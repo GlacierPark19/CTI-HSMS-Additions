@@ -1,0 +1,15 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "foods:basic_bagel",
+      "item": "foods:condensed_cow"
+    }
+
+  ],
+  "results": [
+    {
+      "item": "foods:cow_bagel"
+    }
+  ]
+}

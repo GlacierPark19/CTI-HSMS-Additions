@@ -1,0 +1,15 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "foods:basic_bagel",
+      "item": "foods:seeds"
+    }
+
+  ],
+  "results": [
+    {
+      "item": "foods:cream_cheese_bagel"
+    }
+  ]
+}
