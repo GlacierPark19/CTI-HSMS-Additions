@@ -1,5 +1,6 @@
 package com.cti.ctihsmsadditions;
 
+import com.cti.ctihsmsadditions.sub.decor.blocks.BlockRegistry;
 import com.cti.ctihsmsadditions.sub.foods.Config.Config;
 import com.cti.ctihsmsadditions.sub.foods.Config.FeatureConfig;
 import com.cti.ctihsmsadditions.sub.foods.Config.RightClickConfig;
@@ -57,7 +58,7 @@ public class CtiHsmsAdditions {
         MinecraftForge.EVENT_BUS.register(this);
         //Foods registerys
         ItemRegistry.init();
-
+        BlockRegistry.init();
 
 
 
