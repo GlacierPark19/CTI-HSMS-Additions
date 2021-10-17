@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [128, 128],
 	"textures": {
-		"0": "cti-hsms-additions:Block/wood_rack",
-		"particle": "cti-hsms-additions:Block/wood_rack"
+		"0": "cti-hsms-additions:block/wood_rack",
+		"particle": "cti-hsms-additions:block/wood_rack"
 	},
 	"elements": [
 		{
@@ -357,6 +357,34 @@
 			}
 		}
 	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-4, -4, 0],
+			"translation": [0.25, 1.25, 2],
+			"scale": [0.32, 0.32, 0.32]
+		},
+		"thirdperson_lefthand": {
+			"translation": [-11.25, 1.25, 2.25],
+			"scale": [0.32, 0.32, 0.32]
+		},
+		"firstperson_righthand": {
+			"translation": [0, 0.5, 0],
+			"scale": [0.32, 0.32, 0.32]
+		},
+		"firstperson_lefthand": {
+			"scale": [0.32, 0.32, 0.32]
+		},
+		"ground": {
+			"scale": [0.32, 0.32, 0.32]
+		},
+		"gui": {
+			"rotation": [47, 0, 0]
+		},
+		"fixed": {
+			"rotation": [-1, -179, 0]
+		}
+	},
 	"groups": [
 		{
 			"name": "Base",
