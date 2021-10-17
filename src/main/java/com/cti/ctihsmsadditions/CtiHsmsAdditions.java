@@ -1,12 +1,12 @@
 package com.cti.ctihsmsadditions;
 
-import com.cti.ctihsmsadditions.sub.decor.blocks.BlockRegistry;
+import com.cti.ctihsmsadditions.sub.decor.blocks.DecorBlockRegistry;
+import com.cti.ctihsmsadditions.sub.foods.Blocks.BlockRegistry;
 import com.cti.ctihsmsadditions.sub.foods.Config.Config;
 import com.cti.ctihsmsadditions.sub.foods.Config.FeatureConfig;
 import com.cti.ctihsmsadditions.sub.foods.Config.RightClickConfig;
 import com.cti.ctihsmsadditions.sub.foods.Events.CropHarvest;
 import com.cti.ctihsmsadditions.sub.foods.Items.ItemRegistry;
-import com.cti.ctihsmsadditions.sub.foods.Items.SeedRegistry;
 import net.minecraft.block.Block;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -21,7 +21,6 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.InterModEnqueueEvent;
 import net.minecraftforge.fml.event.lifecycle.InterModProcessEvent;
 import net.minecraftforge.fml.event.server.FMLServerStartingEvent;
-import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.fml.loading.FMLPaths;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -58,7 +57,9 @@ public class CtiHsmsAdditions {
         MinecraftForge.EVENT_BUS.register(this);
         //Foods registerys
         ItemRegistry.init();
-        BlockRegistry.init();
+
+        //Decor Registry
+        DecorBlockRegistry.init();
 
 
 

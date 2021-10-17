@@ -5,10 +5,10 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraftforge.common.ToolType;
 
-public class WoodRack extends Block {
+public class wood_rack extends Block {
 
 
-    public WoodRack() {
+    public wood_rack() {
         super(Properties.create(Material.IRON)
                 .hardnessAndResistance(7.0f, 24.0f)
                 .sound(SoundType.METAL)

@@ -1,6 +1,6 @@
 {
   "parent": "block/crop",
   "textures": {
-    "crop": "ctihsmsadditions:block/tomato_stage_0"
+    "crop": "cti-hsms-additions:block/tomato_stage_0"
   }
 }
